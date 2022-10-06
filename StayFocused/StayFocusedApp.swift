@@ -11,7 +11,8 @@ import SwiftUI
 struct StayFocusedApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          PlayerView(viewModel: TimerViewModel())
+            .frame(height: 120)
         }
     }
 }

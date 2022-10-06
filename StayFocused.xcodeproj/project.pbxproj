@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B34887E28EEC60000EEAE82 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34887D28EEC60000EEAE82 /* PlayerView.swift */; };
+		7B34888128EED7E900EEAE82 /* StaticButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34888028EED7E900EEAE82 /* StaticButtonStyle.swift */; };
 		7BAA519528ED5BC30089E42F /* StayFocusedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA519428ED5BC30089E42F /* StayFocusedApp.swift */; };
 		7BAA519728ED5BC30089E42F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA519628ED5BC30089E42F /* ContentView.swift */; };
 		7BAA519928ED5BCC0089E42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA519828ED5BCC0089E42F /* Assets.xcassets */; };
 		7BAA519C28ED5BCC0089E42F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA519B28ED5BCC0089E42F /* Preview Assets.xcassets */; };
+		7BC7F07428EDC58800B93EC5 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7F07328EDC58800B93EC5 /* Resources.swift */; };
+		7BC7F07628EDC5A100B93EC5 /* AudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7F07528EDC5A100B93EC5 /* AudioCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B34887D28EEC60000EEAE82 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		7B34888028EED7E900EEAE82 /* StaticButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticButtonStyle.swift; sourceTree = "<group>"; };
 		7BAA519128ED5BC30089E42F /* StayFocused.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StayFocused.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAA519428ED5BC30089E42F /* StayFocusedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFocusedApp.swift; sourceTree = "<group>"; };
 		7BAA519628ED5BC30089E42F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BAA519828ED5BCC0089E42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAA519B28ED5BCC0089E42F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BC7F07328EDC58800B93EC5 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		7BC7F07528EDC5A100B93EC5 /* AudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B34887F28EED7D500EEAE82 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7B34888028EED7E900EEAE82 /* StaticButtonStyle.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		7BAA518828ED5BC30089E42F = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +67,14 @@
 		7BAA519328ED5BC30089E42F /* StayFocused */ = {
 			isa = PBXGroup;
 			children = (
+				7B34887F28EED7D500EEAE82 /* Library */,
 				7BAA519428ED5BC30089E42F /* StayFocusedApp.swift */,
+				7B34887D28EEC60000EEAE82 /* PlayerView.swift */,
 				7BAA519628ED5BC30089E42F /* ContentView.swift */,
+				7BC7F07328EDC58800B93EC5 /* Resources.swift */,
 				7BAA519828ED5BCC0089E42F /* Assets.xcassets */,
 				7BAA519A28ED5BCC0089E42F /* Preview Content */,
+				7BC7F07528EDC5A100B93EC5 /* AudioCell.swift */,
 			);
 			path = StayFocused;
 			sourceTree = "<group>";
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC7F07628EDC5A100B93EC5 /* AudioCell.swift in Sources */,
+				7BC7F07428EDC58800B93EC5 /* Resources.swift in Sources */,
 				7BAA519728ED5BC30089E42F /* ContentView.swift in Sources */,
+				7B34887E28EEC60000EEAE82 /* PlayerView.swift in Sources */,
 				7BAA519528ED5BC30089E42F /* StayFocusedApp.swift in Sources */,
+				7B34888128EED7E900EEAE82 /* StaticButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
